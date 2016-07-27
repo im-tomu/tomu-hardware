@@ -23,6 +23,13 @@ The important features are;
 
 These make something which is almost hand solder-able fit into the tiny size.
 
+## TODO
+
+ * Create a footprint for the USB connector.
+ * Create a footprint for the "touch points".
+ * Route the design.
+ * Create the 3d print model.
+ * Write the firmware for the device.
 
 ## License
 
