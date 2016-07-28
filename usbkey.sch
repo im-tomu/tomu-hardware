@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:usbkey-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -82,7 +83,7 @@ L C_Small C1
 U 1 1 5798BCD7
 P 5725 4025
 F 0 "C1" V 5675 4075 50  0000 L CNN
-F 1 "1uF" V 5675 3850 50  0000 L CNN
+F 1 "1uF" V 5775 4075 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 5725 4025 50  0001 C CNN
 F 3 "" H 5725 4025 50  0000 C CNN
 	1    5725 4025
@@ -387,10 +388,6 @@ F 3 "" H 2350 2925 50  0000 C CNN
 	1    2350 2925
 	1    0    0    -1  
 $EndComp
-Text Notes 2450 3075 0    39   ~ 0
-US0_TX\n
-Text Notes 2450 3175 0    39   ~ 0
-US0_RX
 Wire Wire Line
 	4175 3025 4200 3025
 Wire Wire Line
@@ -481,4 +478,22 @@ Connection ~ 4125 3525
 Wire Wire Line
 	4025 3775 4200 3775
 Connection ~ 4025 3625
+Text Label 3850 3425 0    39   ~ 0
+CAP0
+Text Label 3850 3625 0    39   ~ 0
+CAP1
+Text Label 2775 3075 0    39   ~ 0
+US0_TX
+Text Label 2775 3175 0    39   ~ 0
+US0_RX
+Text Label 5550 4025 0    39   ~ 0
+DEC
+Text Label 4175 2600 1    39   ~ 0
+LED1
+Text Label 4050 2600 1    39   ~ 0
+LED0
+Text Label 5500 3100 0    8    ~ 0
+RUSB_D+
+Text Label 5500 3175 0    8    ~ 0
+RUSB_D-
 $EndSCHEMATC
