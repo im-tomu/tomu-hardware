@@ -13,7 +13,7 @@ Built out of a 3d printed part + a "flex PCB" which is folded over. Flex PCB is
  * Seed Studios - https://www.seeedstudio.com/fpcb.html
  * Other people probably...
 
-Uses a Silicon Labs EFM32HG309 ([datasheet](https://www.silabs.com/Support%20Documents/TechnicalDocs/EFM32HG309.pdf).
+Uses a Silicon Labs EFM32HG309 ([datasheet](https://www.silabs.com/Support%20Documents/TechnicalDocs/EFM32HG309.pdf)).
 
 The important features are;
  * [~$2.15 USD on Digikey](http://www.digikey.com/product-detail/en/silicon-labs/EFM32HG309F64G-A-QFN24/336-3207-ND/5142721)
