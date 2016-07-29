@@ -6,12 +6,14 @@ LEDs.
 
 ## WARNING: This design hasn't been proven yet!
 
-Built out of a 3d printed part + a "flex PCB" which is folded over. Flex PCB is
-2 layers and should be make-able by;
+Built out of a 3d printed part + 2 layer "thin" PCB (0.4mm or 0.6mm thick).
 
- * Dangerous Prototype's Dirty PCB - http://dangerousprototypes.com/store/pcbs
- * Seed Studios - https://www.seeedstudio.com/fpcb.html
- * Other people probably...
+The board has;
+ * 5mil traces
+ * 5mil clearance
+ * 0.3mm drill / 0.6mm vias
+
+--
 
 Uses a Silicon Labs EFM32HG309 ([datasheet](https://www.silabs.com/Support%20Documents/TechnicalDocs/EFM32HG309.pdf)).
 
