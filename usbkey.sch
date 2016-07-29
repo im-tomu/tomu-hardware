@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:usbkey-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -101,9 +100,9 @@ F 3 "" V 6600 3125 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 5825 3100 0    39   ~ 0
-USB_D+
-Text Label 5825 3175 0    39   ~ 0
 USB_D-
+Text Label 5825 3175 0    39   ~ 0
+USB_D+
 Text Label 5825 3350 0    39   ~ 0
 VCC3V3
 Text Label 5825 3025 0    39   ~ 0
@@ -171,8 +170,6 @@ Wire Wire Line
 	5950 4025 5950 4125
 Connection ~ 6125 4125
 Wire Wire Line
-	6750 4125 6750 3525
-Wire Wire Line
 	6125 3350 6125 3875
 Wire Wire Line
 	5750 3350 5750 3925
@@ -198,7 +195,6 @@ Wire Wire Line
 	5500 4125 7000 4125
 Wire Wire Line
 	7000 4125 7000 3950
-Connection ~ 6750 4125
 Wire Wire Line
 	7000 3750 7000 2875
 Wire Wire Line
@@ -223,13 +219,9 @@ Wire Wire Line
 	5825 4025 5950 4025
 Connection ~ 5950 4125
 Wire Wire Line
-	2650 3875 4200 3875
+	3025 3875 4200 3875
 Wire Wire Line
-	3025 3950 4200 3950
-Wire Wire Line
-	3025 3950 3025 3975
-Wire Wire Line
-	3025 3975 2650 3975
+	2825 3950 4200 3950
 Wire Wire Line
 	2650 4075 2700 4075
 Wire Wire Line
@@ -473,9 +465,9 @@ LED1
 Text Label 4050 2600 1    39   ~ 0
 LED0
 Text Label 5500 3100 0    8    ~ 0
-RUSB_D+
-Text Label 5500 3175 0    8    ~ 0
 RUSB_D-
+Text Label 5500 3175 0    8    ~ 0
+RUSB_D+
 Wire Wire Line
 	4025 3600 4025 3625
 Wire Wire Line
@@ -490,4 +482,13 @@ Text Label 3300 3425 0    39   ~ 0
 CAP0B
 Text Label 3325 3625 0    39   ~ 0
 CAP1B
+Wire Wire Line
+	2825 3950 2825 3875
+Wire Wire Line
+	2825 3875 2650 3875
+Wire Wire Line
+	3025 3875 3025 3975
+Wire Wire Line
+	3025 3975 2650 3975
+NoConn ~ 6750 3525
 $EndSCHEMATC
