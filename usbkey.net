@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /usr/local/google/home/tansell/foss/hardware/usbkey/usbkey.sch)
-    (date "Fri 29 Jul 2016 04:49:56 PM AEST")
+    (date "Fri 29 Jul 2016 05:37:12 PM AEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu14.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
