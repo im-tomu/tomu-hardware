@@ -1,4 +1,4 @@
-(module USB-PCB (layer F.Cu) (tedit 579C6ECE)
+(module USB-PCB (layer F.Cu) (tedit 579CBA85)
   (fp_text reference P3 (at 2 2.5) (layer Cmts.User)
     (effects (font (size 1 1) (thickness 0.15)))
   )
