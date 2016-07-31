@@ -10,7 +10,7 @@ Built out of a 3d printed part + 2 layer "thin" PCB (0.4mm or 0.6mm thick).
 
 The board has;
  * 5mil traces
- * 5mil clearance
+ * 4mil clearance
  * 0.3mm drill / 0.6mm vias
 
 --
