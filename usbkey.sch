@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:usbkey-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:efm32hg309
+LIBS:usb_pcb
 LIBS:usbkey-cache
 EELAYER 25 0
 EELAYER END
@@ -36,10 +38,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date ""
+Date "$Id$"
 Rev ""
 Comp ""
-Comment1 ""
+Comment1 "License: CC-BY-SA 4.0 or TAPR"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -89,11 +91,11 @@ F 3 "" H 5725 4025 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L USB_B P3
+L USB_PCB P3
 U 1 1 5798BECB
 P 6650 3225
 F 0 "P3" H 6850 3025 50  0000 C CNN
-F 1 "USB_B" H 6600 3425 50  0000 C CNN
+F 1 "USB_PCB" H 6600 3425 50  0000 C CNN
 F 2 "usb-pcb:USB-PCB" V 6600 3125 50  0001 C CNN
 F 3 "" V 6600 3125 50  0000 C CNN
 	1    6650 3225
@@ -302,7 +304,6 @@ Text Label 3300 3425 0    39   ~ 0
 CAP0B
 Text Label 3325 3625 0    39   ~ 0
 CAP1B
-NoConn ~ 6750 3525
 $Comp
 L +3V3 #PWR07
 U 1 1 579B6568

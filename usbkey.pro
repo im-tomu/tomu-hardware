@@ -1,4 +1,4 @@
-update=Thu 28 Jul 2016 10:43:11 PM AEST
+update=Sun 31 Jul 2016 04:20:01 PM AEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=efm32hg309
+LibName32=usb_pcb
