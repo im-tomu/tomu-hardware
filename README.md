@@ -25,6 +25,32 @@ The important features are;
 
 These make something which is almost hand solder-able fit into the tiny size.
 
+## BOM
+
+
+All parts are ordered from Digikey but could easily be ordered from somewhere else.
+
+ * [Digikey BOM in CSV format](bom-digikey.csv)
+
+Individual parts;
+
+ * Resistors
+  - 2 x 0402 - 15 Ohm - [Digikey](https://www.digikey.com.au/short/3m8rz5)
+  - 2 x 0402 - ~50 Ohm (Depends on LED choice)
+
+ * Capacitors - [Digikey Capacitors 0402, >1uF](https://www.digikey.com.au/short/3m8r4z)
+  - 2 x Capacitor 1uF 0402
+  - 1 x Capacitor >10uF 0402
+
+ * 2 x LED 0402
+  - You choice of two different colors (might require adjustment of R1/R2).
+  - 5mA LEDs are better choice.
+  - Get highest millicandela rating you can.
+  - [Digikey Search of LEDs in 0402 package](https://www.digikey.com.au/short/3m8rz0)
+
+ * 1 x EFM32HG309 or EMF32HG308
+
+
 ## TODO
 
  * Create a footprint for the USB connector.
