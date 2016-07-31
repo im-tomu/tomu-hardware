@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:usbkey-rescue
+LIBS:tomu-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:efm32hg309
 LIBS:usb_pcb
-LIBS:usbkey-cache
+LIBS:tomu-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

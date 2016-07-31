@@ -27,9 +27,9 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../usbkey
+LibDir=../tomu
 [eeschema/libraries]
-LibName1=usbkey-rescue
+LibName1=tomu-rescue
 LibName2=power
 LibName3=device
 LibName4=transistors

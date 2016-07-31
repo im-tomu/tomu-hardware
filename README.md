@@ -1,8 +1,8 @@
 
-# microusbkey
+# [I'm Tomu](tomu.im)
 
-A tiny ARM microprocessor which fits in your USB port. Has two buttons and two
-LEDs.
+[I'm Tomu](tomu.im) a tiny ARM microprocessor which fits in your USB port. 
+I have two buttons and two LEDs.
 
 ## WARNING: This design hasn't been proven yet!
 
@@ -53,11 +53,24 @@ Individual parts;
 
 ## TODO
 
- * Create a footprint for the USB connector.
- * Create a footprint for the "touch points".
- * Route the design.
+ * Create the device
  * Create the 3d print model.
  * Write the firmware for the device.
+
+## FAQ
+
+##### Why did you create this?
+
+The aim was to prove that a device which fits in your USB port could be created
+**by hobbists in small quantities** extremely cheaply.
+
+##### Where does the name Tomu come from?
+
+TOMU comes from the abbreviation "Tim's Open Micro USB".
+
+##### What can I use this for?
+
+What ever you want! If you do create something, please send me the info!
 
 ## License
 
