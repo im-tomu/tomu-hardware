@@ -3,7 +3,7 @@
   (general
     (links 42)
     (no_connects 0)
-    (area -14.081363 -3.0266 139.257141 44.375)
+    (area 16.97489 17.974999 30.025001 29.02511)
     (thickness 1.6)
     (drawings 174)
     (tracks 211)
@@ -223,7 +223,7 @@
     (fp_text reference R2 (at 0 1.8 90) (layer B.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 15 (at 0 -1.8 90) (layer B.Fab)
+    (fp_text value 75 (at 0 -1.8 90) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -0.95 0.65) (end 0.95 0.65) (layer B.CrtYd) (width 0.05))
@@ -401,7 +401,7 @@
     (fp_text reference R1 (at 0 1.8 90) (layer B.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 15 (at 0 -1.8 90) (layer B.Fab)
+    (fp_text value 75 (at 0 -1.8 90) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -0.95 0.65) (end 0.95 0.65) (layer B.CrtYd) (width 0.05))
@@ -643,7 +643,7 @@
     (fp_text reference P3 (at 2 2.5) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value USB_B (at 3.5 1) (layer F.Fab)
+    (fp_text value USB_PCB (at 3.5 1) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user + (at 9.46 -6.43 90) (layer Dwgs.User)
