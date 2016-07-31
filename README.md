@@ -4,6 +4,11 @@
 [I'm Tomu](tomu.im) a tiny ARM microprocessor which fits in your USB port. 
 I have two buttons and two LEDs.
 
+![Tomu Front Render](img/tomu-front.png)
+![Tomu Back Render](img/tomu-back.png)
+
+
+
 ## WARNING: This design hasn't been proven yet!
 
 Built out of a 3d printed part + 2 layer "thin" PCB (0.4mm or 0.6mm thick).
