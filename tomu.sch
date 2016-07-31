@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:tomu-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,13 +36,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Tomu, I'm"
 Date "$Id$"
 Rev ""
-Comp ""
+Comp "Tim 'mithro' Ansell <mithro@mithis.com>"
 Comment1 "License: CC-BY-SA 4.0 or TAPR"
-Comment2 ""
-Comment3 ""
+Comment2 "http://tomu.im"
+Comment3 "https://github.com/mithro/tomu"
 Comment4 ""
 $EndDescr
 $Comp

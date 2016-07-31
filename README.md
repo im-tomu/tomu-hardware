@@ -1,5 +1,5 @@
 
-# [I'm Tomu](tomu.im)
+# [Tomu, I'm](tomu.im)
 
 [I'm Tomu](tomu.im) a tiny ARM microprocessor which fits in your USB port. 
 I have two buttons and two LEDs.
