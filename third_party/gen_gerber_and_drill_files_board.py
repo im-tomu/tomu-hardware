@@ -42,8 +42,8 @@ popt.SetLineWidth(FromMM(0.35))
 popt.SetAutoScale(False)        #do not change it
 popt.SetScale(1)                #do not change it
 popt.SetMirror(False)
-popt.SetUseGerberAttributes(True)
-popt.SetUseGerberProtelExtensions(False)
+popt.SetUseGerberAttributes(False)
+popt.SetUseGerberProtelExtensions(True)
 popt.SetExcludeEdgeLayer(False);
 popt.SetScale(1)
 popt.SetUseAuxOrigin(True)
