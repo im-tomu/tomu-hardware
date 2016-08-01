@@ -3,7 +3,7 @@
   (general
     (links 42)
     (no_connects 0)
-    (area 16.97489 17.974999 30.025001 29.02511)
+    (area -14.081363 -3.0266 139.257141 44.375)
     (thickness 1.6)
     (drawings 174)
     (tracks 211)
@@ -760,8 +760,8 @@
       (net 1 GND))
   )
 
-  (gr_text tomu.im (at 26.475 23.45 90) (layer F.Cu)
-    (effects (font (size 0.9 1) (thickness 0.225)))
+  (gr_text "tomu.im v0.0" (at 26.425 23.475 90) (layer F.Cu)
+    (effects (font (size 0.8 1) (thickness 0.2)))
   )
   (gr_line (start 21.44 23.99) (end 21.12 23.99) (layer Dwgs.User) (width 0.1016) (tstamp 579C9EFC))
   (gr_line (start 21.44 24.1) (end 21.12 24.1) (layer Dwgs.User) (width 0.1016) (tstamp 579C9EFB))
