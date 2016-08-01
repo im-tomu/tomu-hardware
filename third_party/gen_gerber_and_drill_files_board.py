@@ -27,7 +27,7 @@ filename=sys.argv[1]
 
 board = LoadBoard(filename)
 
-plotDir = "plot/"
+plotDir = sys.argv[2]
 
 pctl = PLOT_CONTROLLER(board)
 
