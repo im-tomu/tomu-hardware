@@ -1,0 +1,23 @@
+Drill report for tomu.kicad_pcb
+Created on Mon Aug  1 12:46:02 2016
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'tomu.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.30mm  0.012"  (13 holes)
+
+    Total plated holes count 13
+
+
+Drill file 'tomu-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.80mm  0.031"  (1 hole)  (with 1 slot)
+
+    Total unplated holes count 1
