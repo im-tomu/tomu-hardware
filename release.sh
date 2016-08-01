@@ -1,0 +1,39 @@
+#!/bin/bash
+
+set -x
+set -e
+
+if [ $(git diff --shortstat 2> /dev/null | tail -n1) != "" ]; then
+	echo "Dirty repo, commit before running."
+	exit 1
+fi
+
+CURRENT_VERSION=$(git describe --abbrev=0)
+
+VERSION_MATCH='v\([0-9]\+\)\.\([0-9]\+\)'
+MAJOR_VERSION=$(echo $CURRENT_VERSION | sed -e"s/$VERSION_MATCH/\1/")
+MINOR_VERSION=$(echo $CURRENT_VERSION | sed -e"s/$VERSION_MATCH/\2/")
+
+echo "Current version: $CURRENT_VERSION"
+
+# Work out the next version
+NEXT_VERSION="v$MAJOR_VERSION.$((MINOR_VERSION+1))"
+echo "Next version: $NEXT_VERSION"
+OUTDIR=releases/$NEXT_VERSION
+mkdir $OUTDIR
+
+# Update the version embedded in the PCB
+sed -e"s/(gr_text \"tomu.im $CURRENT_VERSION\"/(gr_text \"tomu.im $NEXT_VERSION\"/" --in-place=.bak tomu.kicad_pcb
+git add tomu.kicad_pcb
+
+# Generate the gerber files
+python third_party/gen_gerber_and_drill_files_board.py tomu.kicad_pcb $OUTDIR/gerbers
+git add $OUTDIR/gerbers/*
+
+git commit -m "Bumping version to $NEXT_VERSION"
+git tag --annotate $NEXT_VERSION -m"Releasing $NEXT_VERSION"
+
+cd $OUTDIR/gerbers
+zip -r ../tomu-$NEXT_VERSION.zip .
+
+exit 0
