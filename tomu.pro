@@ -59,4 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=efm32hg309
-LibName31=usb_pcb
+LibName31=usb-pcb

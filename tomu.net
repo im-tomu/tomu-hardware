@@ -34,9 +34,9 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5798BCD7))
     (comp (ref P3)
-      (value USB_PCB)
+      (value USB-PCB)
       (footprint usb-pcb:USB-PCB)
-      (libsource (lib usb_pcb) (part USB_PCB))
+      (libsource (lib usb-pcb) (part USB-PCB))
       (sheetpath (names /) (tstamps /))
       (tstamp 5798BECB))
     (comp (ref R3)
@@ -199,13 +199,13 @@
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
-    (libpart (lib usb_pcb) (part USB_PCB)
+    (libpart (lib usb-pcb) (part USB-PCB)
       (description "USB on the PCB")
       (footprints
-        (fp USB_PCB))
+        (fp USB-PCB))
       (fields
         (field (name Reference) P)
-        (field (name Value) USB_PCB))
+        (field (name Value) USB-PCB))
       (pins
         (pin (num 1) (name VCC) (type power_out))
         (pin (num 2) (name D-) (type passive))
@@ -218,8 +218,8 @@
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical efm32hg309)
       (uri efm32hg309.lib))
-    (library (logical usb_pcb)
-      (uri usb_pcb.lib)))
+    (library (logical usb-pcb)
+      (uri usb-pcb.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref C2) (pin 2))

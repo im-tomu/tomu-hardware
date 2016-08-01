@@ -643,7 +643,7 @@
     (fp_text reference P3 (at 2 2.5) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value USB_PCB (at 3.5 1) (layer F.Fab)
+    (fp_text value USB-PCB (at 3.5 1) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user + (at 9.46 -6.43 90) (layer Dwgs.User)
