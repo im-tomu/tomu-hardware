@@ -34,6 +34,9 @@ git commit -m "Bumping version to $NEXT_VERSION"
 git tag --annotate $NEXT_VERSION -m"Releasing $NEXT_VERSION"
 
 cd $OUTDIR/gerbers
-zip -r ../tomu-$(git describe --long).zip .
+ZIP="tomu-$(git describe --long).zip"
+zip -r ../$ZIP .
+
+cd ..; md5sum $ZIP
 
 exit 0
