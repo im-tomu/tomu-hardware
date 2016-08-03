@@ -23,7 +23,7 @@ OUTDIR=releases/$NEXT_VERSION
 mkdir $OUTDIR
 
 # Update the version embedded in the PCB
-sed -e"s/(gr_text \"tomu.im $CURRENT_VERSION\"/(gr_text \"tomu.im $NEXT_VERSION\"/" --in-place=.bak tomu.kicad_pcb
+sed -e"s/(gr_text \"tomu.im  $CURRENT_VERSION\"/(gr_text \"tomu.im  $NEXT_VERSION\"/" --in-place=.bak tomu.kicad_pcb
 git add tomu.kicad_pcb
 
 # Generate the gerber files
