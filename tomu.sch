@@ -280,7 +280,6 @@ $EndComp
 Text Notes 1475 2350 0    60   ~ 0
 PB8 - US0_RX\nPB7 - US0_TX\n\nPA0 - Timer 0 Capture Compare Channel 0 -- For PWM - LED0 \nPB7 - Timer 1 Capture Compare Channel 0 -- For PWM - LED1\n\nPC0 - ACMP0_CH0 - Capacitive Touch 0\nPC1 - ACMP0_CH1 - Capacitive Touch 1\n\nPC14 - USB_DM\nPC15 - USB_DP\n\nPE12 - ADC0_CH0\nPE13 - ADC0_CH1\n\nPF0 - DBG_SWCLK #0 - BOOT_RX\nPF1 - DBG_SWDIO #0 - BOOT_TX\n\n
 NoConn ~ 4200 4125
-NoConn ~ 4200 4025
 Text Label 3800 3425 0    39   ~ 0
 CAP0A
 Text Label 3825 3625 0    39   ~ 0
@@ -491,4 +490,19 @@ Wire Wire Line
 	4100 3125 4200 3125
 NoConn ~ 4200 3200
 NoConn ~ 4200 3275
+$Comp
+L GND #PWR?
+U 1 1 57A1602A
+P 4030 4035
+F 0 "#PWR?" H 4030 3785 50  0001 C CNN
+F 1 "GND" H 4030 3885 50  0000 C CNN
+F 2 "" H 4030 4035 50  0000 C CNN
+F 3 "" H 4030 4035 50  0000 C CNN
+	1    4030 4035
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4025 4030 4025
+Wire Wire Line
+	4030 4025 4030 4035
 $EndSCHEMATC
