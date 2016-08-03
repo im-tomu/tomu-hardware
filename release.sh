@@ -3,7 +3,9 @@
 set -x
 set -e
 
-if [ $(git diff --shortstat 2> /dev/null | tail -n1) != "" ]; then
+if git diff-index --quiet HEAD --; then
+	echo "Clean repo, good!"
+else
 	echo "Dirty repo, commit before running."
 	exit 1
 fi
