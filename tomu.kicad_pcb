@@ -758,7 +758,7 @@
       (net 1 GND))
   )
 
-  (gr_text "tomu.im  v0.1" (at 26.43 28.29 90) (layer F.Cu)
+  (gr_text "tomu.im  v0.2" (at 26.43 28.29 90) (layer F.Cu)
     (effects (font (size 0.75 0.85) (thickness 0.1875)) (justify left))
   )
   (gr_line (start 21.44 23.99) (end 21.12 23.99) (layer Dwgs.User) (width 0.1016) (tstamp 579C9EFC))
