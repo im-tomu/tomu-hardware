@@ -13,9 +13,9 @@ I have two buttons and two LEDs.
  * [Discussion mailing list](https://groups.google.com/forum/#!forum/tomu-discuss/join) - List for discussing development / new features / etc.
  * [IRC Channel - irc://irc.freenode.net/#tomu](https://webchat.freenode.net/?channels=#tomu) - IRC channel for discussing anything related to the project.
 
-## WARNING: This design hasn't been proven yet!
+## WARNING: Prototypes have been constructed but software is currently still being developed.
 
-Built out of a 3d printed part + 2 layer "thin" PCB (0.4mm or 0.6mm thick).
+Built out of a 3d printed part + 2 layer "thin" PCB (should be 0.4mm or 0.6mm thickness preferred, but 0.8mm and 1.0mm should work).
 
 The board has;
  * 6mil traces
