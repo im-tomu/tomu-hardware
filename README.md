@@ -40,6 +40,7 @@ These make something which is almost hand solder-able fit into the tiny size.
 All parts are ordered from Digikey but could easily be ordered from somewhere else.
 
  * [Digikey BOM in CSV format](bom-digikey.csv)
+ * [Digikey Shared Cart](http://www.digikey.com.au/short/39z1zv)
 
 Individual parts;
 
