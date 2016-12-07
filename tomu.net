@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /usr/local/google/home/tansell/foss/hardware/usbkey/tomu.sch)
-    (date "Wed 03 Aug 2016 01:03:34 PM AEST")
-    (tool "Eeschema 4.0.2+e4-6225~38~ubuntu14.04.1-stable")
+    (source /home/tansell/foss/hardware/tomu/tomu-hardware/tomu.sch)
+    (date "Wed 07 Dec 2016 22:19:28 AEDT")
+    (tool "Eeschema 4.0.4+e1-6308~48~ubuntu14.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Tomu, I'm")
@@ -22,7 +22,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5798B89B))
     (comp (ref C3)
-      (value 47uF)
+      (value 4.7uF)
       (footprint Capacitors_SMD:C_0402)
       (libsource (lib device) (part C_Small))
       (sheetpath (names /) (tstamps /))
@@ -212,10 +212,10 @@
         (pin (num 3) (name D+) (type passive))
         (pin (num 4) (name GND) (type power_in)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
     (library (logical efm32hg309)
       (uri efm32hg309.lib))
     (library (logical usb-pcb)
