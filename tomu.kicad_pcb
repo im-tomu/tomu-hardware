@@ -205,11 +205,6 @@
       (net 21 /LEU0_TX) (solder_mask_margin -0.25) (zone_connect 2))
     (pad 4 smd oval (at 0 -7.62 270) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask)
       (net 2 +3V3) (solder_mask_margin -0.25) (zone_connect 2))
-    (model Pin_Headers.3dshapes/Pin_Header_Angled_1x04.wrl
-      (at (xyz 0 -0.15 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Resistors_SMD:R_0402 (layer B.Cu) (tedit 579CBFFC) (tstamp 5798C267)
@@ -496,11 +491,6 @@
       (net 6 /DBG_SWDIO) (solder_mask_margin -0.25) (zone_connect 2))
     (pad 4 smd oval (at 0 -7.62 270) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask)
       (net 2 +3V3) (solder_mask_margin -0.25) (zone_connect 2))
-    (model Pin_Headers.3dshapes/Pin_Header_Angled_1x04.wrl
-      (at (xyz 0 -0.15 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Housings_DFN_QFN:QFN-24-1EP_5x5mm_Pitch0.65mm (layer B.Cu) (tedit 57A16287) (tstamp 5798C2AA)
@@ -605,11 +595,6 @@
       (net 18 /CAP0B))
     (pad 2 smd rect (at 0.45 0 270) (size 0.4 0.6) (layers B.Cu)
       (net 16 /CAP0A))
-    (model Resistors_SMD.3dshapes/R_0402.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module usb-pcb:minimal-points (layer B.Cu) (tedit 579CB616) (tstamp 5798C2D6)
@@ -628,11 +613,6 @@
       (net 19 /CAP1B))
     (pad 2 smd rect (at 0.45 0 270) (size 0.4 0.6) (layers B.Cu)
       (net 17 /CAP1A))
-    (model Resistors_SMD.3dshapes/R_0402.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module usb-pcb:USB-PCB (layer F.Cu) (tedit 579DB13B) (tstamp 5798C24F)
