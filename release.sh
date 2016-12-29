@@ -29,7 +29,7 @@ sed -e"s/(gr_text \"tomu.im  $CURRENT_VERSION\"/(gr_text \"tomu.im  $NEXT_VERSIO
 git add tomu.kicad_pcb
 
 # Generate the gerber files
-python third_party/gen_gerber_and_drill_files_board.py tomu.kicad_pcb $OUTDIR/gerbers
+python2 third_party/gen_gerber_and_drill_files_board.py tomu.kicad_pcb $OUTDIR/gerbers
 git add $OUTDIR/gerbers/*
 
 git commit -m "Bumping version to $NEXT_VERSION"
