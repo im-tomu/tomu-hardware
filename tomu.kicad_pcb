@@ -775,7 +775,7 @@
   )
   (gr_arc (start 17.46 18.46) (end 17 18.47) (angle 90) (layer Edge.Cuts) (width 0.05) (tstamp 579B7A2A))
   (gr_arc (start 17.46 28.54) (end 17.47 29) (angle 90) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 17 18.48) (end 17 28.53) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 17 18.48) (end 17 28.55) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 29 18) (end 17.46 18) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 17.46 29) (end 29 29) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 43.5 23.5) (end 43.5 18) (angle 180) (layer Dwgs.User) (width 0.1))
