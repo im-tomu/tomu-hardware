@@ -1,0 +1,542 @@
+%MOIN*%
+%OFA0B0*%
+%FSLAX46Y46*%
+%IPPOS*%
+%LPD*%
+%ADD10C,0.0039370078740157488*%
+%ADD21C,0.0039370078740157488*%
+%ADD22C,0.0039370078740157488*%
+%ADD23C,0.0039370078740157488*%
+%ADD24C,0.0039370078740157488*%
+%ADD25C,0.0039370078740157488*%
+%ADD26C,0.0039370078740157488*%
+%ADD27C,0.0039370078740157488*%
+%ADD28C,0.0039370078740157488*%
+%ADD29C,0.0039370078740157488*%
+%ADD30C,0.0039370078740157488*%
+%ADD31C,0.0039370078740157488*%
+%ADD32C,0.0039370078740157488*%
+%ADD33C,0.0039370078740157488*%
+%ADD34C,0.0039370078740157488*%
+%ADD35C,0.0039370078740157488*%
+%ADD36C,0.0039370078740157488*%
+%ADD37C,0.0039370078740157488*%
+%ADD38C,0.0039370078740157488*%
+%ADD39C,0.0039370078740157488*%
+%ADD40C,0.0039370078740157488*%
+%ADD41C,0.0039370078740157488*%
+%ADD42C,0.0039370078740157488*%
+%ADD43C,0.0039370078740157488*%
+%ADD44C,0.0039370078740157488*%
+%ADD45C,0.0039370078740157488*%
+%ADD46C,0.0039370078740157488*%
+%ADD47C,0.0039370078740157488*%
+%ADD48C,0.0039370078740157488*%
+%ADD49C,0.0039370078740157488*%
+%ADD50C,0.0039370078740157488*%
+%ADD51C,0.0039370078740157488*%
+%ADD52C,0.0039370078740157488*%
+%ADD53C,0.0039370078740157488*%
+%ADD54C,0.0039370078740157488*%
+%ADD55C,0.0039370078740157488*%
+%ADD56C,0.0039370078740157488*%
+%ADD57C,0.0039370078740157488*%
+%ADD58C,0.0039370078740157488*%
+%ADD59C,0.0039370078740157488*%
+%ADD60C,0.0039370078740157488*%
+%ADD61C,0.0039370078740157488*%
+G01G01*
+D10*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D21*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D22*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D23*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D24*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D25*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D26*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D27*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D28*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D29*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D30*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D31*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D32*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D33*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D34*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D35*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D36*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D37*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D38*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D39*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D40*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D41*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D42*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D43*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D44*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D45*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D46*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D47*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D48*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D49*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D50*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D51*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D52*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D53*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D54*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D55*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D56*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D57*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D58*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D59*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D60*
+G04 next file*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-20 revision 550a1ea)-makepkg*
+G04 #@! TF.CreationDate,2017-01-30T22:44:56+01:00*
+G04 #@! TF.ProjectId,tomu,746F6D752E6B696361645F7063620000,rev?*
+G04 #@! TF.FileFunction,Legend,Top*
+G04 #@! TF.FilePolarity,Positive*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-01-20 revision 550a1ea)-makepkg) date 01/30/17 22:44:56*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+D61*
+M02*
