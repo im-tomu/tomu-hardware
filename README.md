@@ -84,15 +84,15 @@ What ever you want! If you do create something, please send me the info!
 
 ## License
 
-The contents of this repository excluding "third_party" folder is released
-under your choice of the following two licences:
+The contents of this repository excluding [`third_party` folder](./third_party)
+is released under your choice of the following two licences:
 
  * the "Creative Commons Attribution-ShareAlike 4.0 International License"
-   (CC BY-SA 4.0) full text of this license is included in the LICENSE file
-   and a copy can also be found at
-   http://creativecommons.org/licenses/by-sa/4.0/
+   (CC BY-SA 4.0) full text of this license is included in the
+   [LICENSE.CC-BY-SA-4.0](LICENSE.CC-BY-SA-4.0) file and a copy can also be
+   found at http://creativecommons.org/licenses/by-sa/4.0/
 
  * the "TAPR Open Hardware License" full text of this license is included
-   in the LICENSE file and a copy can also be found at
+   in the [LICENSE.TAPR](LICENSE.TAPR) file and a copy can also be found at
    http://www.tapr.org/OHL
 
