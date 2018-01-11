@@ -32,6 +32,10 @@ git add tomu.kicad_pcb
 python2 third_party/gen_gerber_and_drill_files_board.py tomu.kicad_pcb $OUTDIR/gerbers
 git add $OUTDIR/gerbers/*
 
+# Update the kitnic.yaml
+sed -e"s/$CURRENT_VERSION/$NEXT_VERSION/" kitnic.yaml --in-place
+git add kitnic.yaml
+
 git commit -m "Bumping version to $NEXT_VERSION"
 git tag --annotate $NEXT_VERSION -m"Releasing $NEXT_VERSION"
 
