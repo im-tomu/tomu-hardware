@@ -522,4 +522,15 @@ $EndComp
 Wire Wire Line
 	7070 3370 7000 3370
 Connection ~ 7000 3370
+$Comp
+L Note XX1
+U 1 1 5A5A1619
+P 5650 1350
+F 0 "XX1" H 5650 1350 60  0000 C CNN
+F 1 "Button solder mask removal" H 5650 1250 60  0000 C CNN
+F 2 "usb-pcb:soldermask-removal" H 5650 1350 60  0001 C CNN
+F 3 "" H 5650 1350 60  0001 C CNN
+	1    5650 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

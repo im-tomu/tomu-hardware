@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:/Code/tomu/hardware/tomu.sch)
-    (date "1/10/2018 2:14:23 PM")
+    (date "1/13/2018 10:21:58 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -116,7 +116,13 @@
       (footprint usb-pcb:pads-1x1)
       (libsource (lib conn) (part Conn_01x01))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5A55B8D8)))
+      (tstamp 5A55B8D8))
+    (comp (ref XX1)
+      (value "Button solder mask removal")
+      (footprint usb-pcb:soldermask-removal)
+      (libsource (lib usb-pcb) (part Note))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5A5A1619)))
   (libparts
     (libpart (lib device) (part C_Small)
       (description "Unpolarized capacitor")
@@ -205,6 +211,11 @@
       (pins
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
+    (libpart (lib usb-pcb) (part Note)
+      (description Note)
+      (fields
+        (field (name Reference) XX)
+        (field (name Value) Note)))
     (libpart (lib device) (part R_Small)
       (description "Resistor, small symbol")
       (footprints
@@ -235,16 +246,16 @@
         (pin (num 3) (name D+) (type passive))
         (pin (num 4) (name GND) (type power_in)))))
   (libraries
-    (library (logical tomu-rescue)
-      (uri D:\Code\tomu\hardware\tomu-rescue.lib))
     (library (logical conn)
       (uri D:\Software\KiCad\share\kicad\library\conn.lib))
-    (library (logical device)
-      (uri D:\Software\KiCad\share\kicad\library\device.lib))
+    (library (logical tomu-rescue)
+      (uri D:\Code\tomu\hardware\tomu-rescue.lib))
+    (library (logical efm32hg309)
+      (uri D:\Code\tomu\hardware\efm32hg309.lib))
     (library (logical usb-pcb)
       (uri D:\Code\tomu\hardware\usb-pcb.lib))
-    (library (logical efm32hg309)
-      (uri D:\Code\tomu\hardware\efm32hg309.lib)))
+    (library (logical device)
+      (uri D:\Software\KiCad\share\kicad\library\device.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref P3) (pin 4))
