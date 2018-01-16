@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Note
+D Note
+$ENDCMP
+#
 $CMP USB-PCB
 D USB on the PCB
 K USB PCB

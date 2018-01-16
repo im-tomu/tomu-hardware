@@ -1,6 +1,18 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# Note
+#
+DEF Note XX 0 40 N Y 1 F N
+F0 "XX" 0 0 60 H V C CNN
+F1 "Note" 0 -100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -100 250 100 50 0 1 0 f
+ENDDRAW
+ENDDEF
+#
 # USB-PCB
 #
 DEF USB-PCB P 0 40 Y Y 1 F N
