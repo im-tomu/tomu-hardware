@@ -3,7 +3,7 @@
   (general
     (links 47)
     (no_connects 0)
-    (area 14.1476 14.172599 139.107141 45.2)
+    (area 16.999999 17.074999 30.050001 26.525001)
     (thickness 0.6)
     (drawings 142)
     (tracks 226)
@@ -752,7 +752,7 @@
   (gr_line (start 29.425 20.92) (end 29.425 22.65) (layer Edge.Cuts) (width 0.01))
   (gr_arc (start 29.025 22.65) (end 29.425 22.65) (angle 90) (layer Edge.Cuts) (width 0.01))
   (gr_arc (start 29.05 20.92) (end 29.05 20.545) (angle 90) (layer Edge.Cuts) (width 0.01))
-  (gr_text "tomu.im v0.4" (at 27.225 25.9 90) (layer F.SilkS)
+  (gr_text "tomu.im v0.4" (at 26.416 26.035 90) (layer F.SilkS)
     (effects (font (size 0.7 0.84) (thickness 0.1)) (justify left))
   )
   (gr_line (start 22.39 22.015) (end 22.07 22.015) (layer Dwgs.User) (width 0.1016) (tstamp 579C9EFC))
