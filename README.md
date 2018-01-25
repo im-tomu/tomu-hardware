@@ -75,7 +75,7 @@ FAQ
 
 ### Why did you create this?
 
-The aim was to prove that a device which fits in your USB port could be created **by hobbists in small quantities** extremely cheaply.
+The aim was to prove that a device which fits in your USB port could be created **by hobbyists in small quantities** extremely cheaply.
 
 ### Where does the name Tomu come from?
 
