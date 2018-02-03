@@ -30,6 +30,7 @@ git add tomu.kicad_pcb
 
 # Generate the gerber files
 python2 third_party/gen_gerber_and_drill_files_board.py tomu.kicad_pcb $OUTDIR/gerbers
+cp tomu.kicad_pcb $OUTDIR/gerbers/
 git add $OUTDIR/gerbers/*
 
 # Update the kitnic.yaml
