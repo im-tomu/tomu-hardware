@@ -1,0 +1,16 @@
+### Module positions - created on 02/05/18 10:05:28 ###
+### Printed by Pcbnew version kicad 4.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                       Package                            PosX       PosY       Rot  Side
+C1        1uF, 10V, X5R, 0402       C_0402                           2.3250     2.2500    0.0000  bottom
+C2        1uF, 10V, X5R, 0402       C_0402                           2.3250     4.6500  180.0000  bottom
+C3        4.7uF, 6.3V, X5R, 0402    C_0402                           2.3250     3.4500  180.0000  bottom
+D1        LED Green 0402            LED_0402                        10.4750     8.2500  180.0000  bottom
+D2        LED, Red, 0402            LED_0402                        10.4750     1.4500  180.0000  bottom
+R1        100 Ohm, 1%, 1/16W, 0402  R_0402                          10.4750     6.9500    0.0000  bottom
+R2        100 Ohm, 1%, 1/16W, 0402  R_0402                          10.4750     2.7500  180.0000  bottom
+R3        15 Ohm, 1%, 1/16W, 0402   R_0402                           2.5000     5.9000    0.0000  bottom
+R4        15 Ohm, 1%, 1/16W, 0402   R_0402                           2.5000     7.2000    0.0000  bottom
+U1        EFM32HG309                QFN-24-1EP_5x5mm_Pitch0.65mm     6.5750     4.7500  180.0000  bottom
+## End
