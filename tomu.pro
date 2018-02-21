@@ -1,4 +1,4 @@
-update=1/10/2018 10:54:29 AM
+update=21-Feb-18 7:49:56 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName29=contrib
 LibName30=valves
 LibName31=efm32hg309
 LibName32=usb-pcb
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=gerber/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
