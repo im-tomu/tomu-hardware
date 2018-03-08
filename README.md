@@ -45,6 +45,7 @@ BOM
 
 All parts are available from Digikey, and are readily available from other suppliers.
 
+* [Kitspace Page](https://kitspace.org/boards/github.com/im-tomu/tomu-hardware/) has links to buy from multiple retailers and download the Gerbers
 * [Digikey BOM in CSV format](bom-digikey.csv)
 * [Digikey Shared Cart](http://www.digikey.com.au/short/39z1zv)
 
