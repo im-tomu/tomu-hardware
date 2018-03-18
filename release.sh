@@ -25,17 +25,17 @@ OUTDIR=releases/$NEXT_VERSION
 mkdir $OUTDIR
 
 # Update the version embedded in the PCB
-sed -e"s/(gr_text \"tomu.im  $CURRENT_VERSION\"/(gr_text \"tomu.im  $NEXT_VERSION\"/" --in-place=.bak tomu.kicad_pcb
-git add tomu.kicad_pcb
+sed -e"s/(gr_text \"tomu.im  $CURRENT_VERSION\"/(gr_text \"tomu.im  $NEXT_VERSION\"/" --in-place=.bak pcb/tomu.kicad_pcb
+git add pcb/tomu.kicad_pcb
 
 # Generate the gerber files
 python2 third_party/gen_gerber_and_drill_files_board.py tomu.kicad_pcb $OUTDIR/gerbers
-cp tomu.kicad_pcb $OUTDIR/gerbers/
+cp pcb/tomu.kicad_pcb $OUTDIR/gerbers/
 git add $OUTDIR/gerbers/*
 
-# Update the kitnic.yaml
-sed -e"s/$CURRENT_VERSION/$NEXT_VERSION/" kitnic.yaml --in-place
-git add kitnic.yaml
+# Update the kitspace.yaml
+sed -e"s/$CURRENT_VERSION/$NEXT_VERSION/" kitspace.yaml --in-place
+git add kitspace.yaml
 
 git commit -m "Bumping version to $NEXT_VERSION"
 git tag --annotate $NEXT_VERSION -m"Releasing $NEXT_VERSION"
