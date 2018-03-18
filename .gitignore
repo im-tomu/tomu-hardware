@@ -8,6 +8,7 @@
 *~
 _autosave-*
 *.tmp
+.DS_Store
 
 # Netlist files (exported from Eeschema)
 *.net
