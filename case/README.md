@@ -21,3 +21,13 @@ This is a fancier case.  It is designed to work with 0.8mm boards, and has a spa
 ---------------
 
 The Tomu 0.3 revision includes notches on the side for alignment with the PCB.  This case is the same as tomu\_0.2\_case\_fancy, but includes nubs to mate with the notches.
+
+[tomu\_0.4\_case](tomu_0.4_case.stl)
+---------------
+
+The Tomu 0.4 revision is 10mm wide, enabling more material on the side for stronger rigidity.  Additionally, an alignment hole was added to the PCB, and this case has a corresponding peg.  Guide rails were added to the sides to make it easier to fit into a USB slot.
+
+[tomu\_0.4\_case\_manufactured](tomu0.4_case-manufactured.step)
+---------------
+
+A .STEP version of the Tomu case that was actually manufactured.  This includes plastic snap tabs to hold the PCB in place, and makes it easier to remove from the slot.

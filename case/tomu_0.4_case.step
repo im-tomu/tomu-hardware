@@ -3,7 +3,7 @@ HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME(
 'C:/Users/smcro/Documents/Code/tomu/hardware/case/tomu_0.4_case_
-short.step','2018-02-13T11:08:41',('Author'),(''),
+short.step','2018-02-26T16:26:32',(''),(''),
   'Open CASCADE STEP processor 6.8','FreeCAD','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN_CC2 { 1 2 10303 214 -1 1 5 4 }'));
 ENDSEC;
