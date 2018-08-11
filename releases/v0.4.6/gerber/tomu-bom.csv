@@ -1,0 +1,22 @@
+Reference,Value,Footprint,Count,Datasheet,FootprintLib,Description,Notes
+C2,"1uF, 10V, X5R, 0402",C_0402,1,,Capacitors_SMD,,
+C3,"4.7uF, 6.3V, X5R, 0402",C_0402,1,,Capacitors_SMD,,
+C1,"1uF, 10V, X5R, 0402",C_0402,1,,Capacitors_SMD,,
+P3,USB-PCB,USB-PCB,1,,usb-pcb,USB pads on bottom of PCB,DNP
+R3,"15 Ohm, 1%, 1/16W, 0402",R_0402,1,,Resistors_SMD,,
+R4,"15 Ohm, 1%, 1/16W, 0402",R_0402,1,,Resistors_SMD,,
+D1,LED Green 0402 ,LED_0402,1,,LEDs,,
+D2,"LED, Red, 0402",LED_0402,1,,LEDs,,
+R2,"100 Ohm, 1%, 1/16W, 0402",R_0402,1,,Resistors_SMD,,
+R1,"100 Ohm, 1%, 1/16W, 0402",R_0402,1,,Resistors_SMD,,
+W1,CAP0,Test_Point_2Pads,1,,Measurement_Points,Capacitive touch pads,DNP
+W2,CAP1,Test_Point_2Pads,1,,Measurement_Points,Capacitive touch pads,DNP
+U1,EFM32HG309,QFN-24-1EP_5x5mm_Pitch0.65mm,1,https://www.silabs.com/documents/public/data-sheets/EFM32HG309.pdf,Housings_DFN_QFN,,
+P2,DEBUG,pads-1x3,1,,usb-pcb,Test points for SWD,DNP
+P4,RESET_PAD,pads-1x1,1,,usb-pcb,Test point for RESET line,DNP
+P5,5V_PAD,pads-1x1,1,,usb-pcb,Test point for supplying 5V power,DNP
+XX1,Button solder mask removal,soldermask-removal,1,,usb-pcb,Internal component to expose captouch pads,DNP
+XX3,ESD Bag,,1,,,Small bag to contain PCB and plastic case.  Approx. 90mm x 90mm.,DNP
+XX4,Plastic Case,,1,,,Case to be consigned from external plastics vendor,DNP
+P1,USART0,pads-1x3-slim,1,,usb-pcb,Test points for serial,DNP
+P6,3V_PAD,pads-1x1,1,,usb-pcb,Test point for 3.3V power,DNP
