@@ -16,7 +16,8 @@ P2,DEBUG,pads-1x3,1,,usb-pcb,Test points for SWD,DNP
 P4,RESET_PAD,pads-1x1,1,,usb-pcb,Test point for RESET line,DNP
 P5,5V_PAD,pads-1x1,1,,usb-pcb,Test point for supplying 5V power,DNP
 XX1,Button solder mask removal,soldermask-removal,1,,usb-pcb,Internal component to expose captouch pads,DNP
-XX3,ESD Bag,,1,,,Small bag to contain PCB and plastic case.  Approx. 90mm x 90mm.,DNP
+XX2,ESD Bag Sticker,,1,,,Black-and-white sticker to affix to ESD bag, 30mm x 50mm,DNP
+XX3,ESD Bag,,1,,,Small bag to contain PCB and plastic case.  Approx. 90mm x 60mm.,DNP
 XX4,Plastic Case,,1,,,Case to be consigned from external plastics vendor,DNP
 P1,USART0,pads-1x3-slim,1,,usb-pcb,Test points for serial,DNP
 P6,3V_PAD,pads-1x1,1,,usb-pcb,Test point for 3.3V power,DNP
