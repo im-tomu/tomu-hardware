@@ -268,7 +268,7 @@ F 1 "EFM32HG309" H 5050 4850 39  0000 C CNN
 F 2 "Housings_DFN_QFN:QFN-24-1EP_5x5mm_Pitch0.65mm" H 4400 4175 60  0001 C CNN
 F 3 "https://www.silabs.com/documents/public/data-sheets/EFM32HG309.pdf" H 4400 4175 60  0001 C CNN
 F 4 "EFM32HG309F64G-B-QFN24" H 4400 4175 50  0001 C CNN "MPN"
-F 5 "ANY" H 4400 4175 50  0001 C CNN "Manufacturer"
+F 5 "Silicon Laboratories Inc" H 4400 4175 50  0001 C CNN "Manufacturer"
 	1    4400 4175
 	1    0    0    -1  
 $EndComp
