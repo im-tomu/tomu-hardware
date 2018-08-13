@@ -11,7 +11,7 @@ R2,"100 Ohm, 1%, 1/16W, 0402",R_0402,1,,Resistors_SMD,ANY,ANY,,
 R1,"100 Ohm, 1%, 1/16W, 0402",R_0402,1,,Resistors_SMD,ANY,ANY,,
 W1,CAP0,Test_Point_2Pads,1,,Measurement_Points,,,Capacitive touch pads,DNP
 W2,CAP1,Test_Point_2Pads,1,,Measurement_Points,,,Capacitive touch pads,DNP
-U1,EFM32HG309,QFN-24-1EP_5x5mm_Pitch0.65mm,1,https://www.silabs.com/documents/public/data-sheets/EFM32HG309.pdf,Housings_DFN_QFN,EFM32HG309F64G-B-QFN24,ANY,,
+U1,EFM32HG309,QFN-24-1EP_5x5mm_Pitch0.65mm,1,https://www.silabs.com/documents/public/data-sheets/EFM32HG309.pdf,Housings_DFN_QFN,EFM32HG309F64G-B-QFN24,Silicon Laboratories Inc,,
 P2,DEBUG,pads-1x3,1,,usb-pcb,,,Test points for SWD,DNP
 P4,RESET_PAD,pads-1x1,1,,usb-pcb,,,Test point for RESET line,DNP
 P5,5V_PAD,pads-1x1,1,,usb-pcb,,,Test point for supplying 5V power,DNP
