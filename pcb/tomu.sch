@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:efm32hg309
-LIBS:usb-pcb
+EESchema Schematic File Version 4
 LIBS:tomu-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,21 +15,23 @@ Comment3 "https://github.com/mithro/tomu"
 Comment4 ""
 $EndDescr
 $Comp
-L C_Small C2
+L Device:C_Small C2
 U 1 1 5798B89B
 P 6100 3950
 F 0 "C2" H 6000 4050 50  0000 L CNN
 F 1 "1uF, 10V, X5R, 0402" V 6200 3900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 6100 3950 50  0001 C CNN
 F 3 "" H 6100 3950 50  0000 C CNN
+F 4 "ANY" H 6100 3950 50  0001 C CNN "MPN"
+F 5 "ANY" H 6100 3950 50  0001 C CNN "Manufacturer"
 	1    6100 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR7
+L power:GND #PWR07
 U 1 1 5798BA02
 P 6200 4250
-F 0 "#PWR7" H 6200 4000 50  0001 C CNN
+F 0 "#PWR07" H 6200 4000 50  0001 C CNN
 F 1 "GND" H 6200 4100 50  0000 C CNN
 F 2 "" H 6200 4250 50  0000 C CNN
 F 3 "" H 6200 4250 50  0000 C CNN
@@ -68,29 +39,33 @@ F 3 "" H 6200 4250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C3
+L Device:C_Small C3
 U 1 1 5798BA32
 P 7000 3850
 F 0 "C3" H 7010 3920 50  0000 L CNN
 F 1 "4.7uF, 6.3V, X5R, 0402" H 7010 3770 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 7000 3850 50  0001 C CNN
 F 3 "" H 7000 3850 50  0000 C CNN
+F 4 "ANY" H 7000 3850 50  0001 C CNN "Manufacturer"
+F 5 "ANY" H 7000 3850 50  0001 C CNN "MPN"
 	1    7000 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1
+L Device:C_Small C1
 U 1 1 5798BCD7
 P 5725 4025
 F 0 "C1" V 5675 4075 50  0000 L CNN
 F 1 "1uF, 10V, X5R, 0402" V 5775 4075 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 5725 4025 50  0001 C CNN
 F 3 "" H 5725 4025 50  0000 C CNN
+F 4 "ANY" V 5725 4025 50  0001 C CNN "MPN"
+F 5 "ANY" V 5725 4025 50  0001 C CNN "Manufacturer"
 	1    5725 4025
 	0    1    1    0   
 $EndComp
 $Comp
-L USB-PCB P3
+L usb-pcb:USB-PCB P3
 U 1 1 5798BECB
 P 6650 3250
 F 0 "P3" H 6850 3050 50  0000 C CNN
@@ -111,24 +86,28 @@ VCC3V3
 Text Label 5800 2900 0    39   ~ 0
 USB_5V
 $Comp
-L R_Small R3
+L Device:R_Small R3
 U 1 1 5798C3BC
 P 5650 3100
 F 0 "R3" V 5650 3055 50  0000 L CNN
 F 1 "15 Ohm, 1%, 1/16W, 0402" V 5620 3180 39  0000 L CNN
 F 2 "Resistors_SMD:R_0402" H 5650 3100 50  0001 C CNN
 F 3 "" H 5650 3100 50  0000 C CNN
+F 4 "ANY" V 5650 3100 50  0001 C CNN "Manufacturer"
+F 5 "ANY" V 5650 3100 50  0001 C CNN "MPN"
 	1    5650 3100
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R4
+L Device:R_Small R4
 U 1 1 5798C529
 P 5650 3175
 F 0 "R4" V 5650 3130 50  0000 L CNN
 F 1 "15 Ohm, 1%, 1/16W, 0402" V 5700 2905 39  0000 L CNN
 F 2 "Resistors_SMD:R_0402" H 5650 3175 50  0001 C CNN
 F 3 "" H 5650 3175 50  0000 C CNN
+F 4 "ANY" V 5650 3175 50  0001 C CNN "Manufacturer"
+F 5 "ANY" V 5650 3175 50  0001 C CNN "MPN"
 	1    5650 3175
 	0    1    1    0   
 $EndComp
@@ -137,10 +116,10 @@ DBG_SWCLK
 Text Label 2680 3900 0    39   ~ 0
 DBG_SWDIO
 $Comp
-L GND #PWR2
+L power:GND #PWR02
 U 1 1 5798EEB6
 P 2800 4100
-F 0 "#PWR2" H 2800 3850 50  0001 C CNN
+F 0 "#PWR02" H 2800 3850 50  0001 C CNN
 F 1 "GND" H 2800 3950 50  0000 C CNN
 F 2 "" H 2800 4100 50  0000 C CNN
 F 3 "" H 2800 4100 50  0000 C CNN
@@ -148,10 +127,10 @@ F 3 "" H 2800 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR6
+L power:+3V3 #PWR06
 U 1 1 5798EF1D
 P 6000 3575
-F 0 "#PWR6" H 6000 3425 50  0001 C CNN
+F 0 "#PWR06" H 6000 3425 50  0001 C CNN
 F 1 "+3V3" H 6000 3715 50  0000 C CNN
 F 2 "" H 6000 3575 50  0000 C CNN
 F 3 "" H 6000 3575 50  0000 C CNN
@@ -159,54 +138,62 @@ F 3 "" H 6000 3575 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-tomu D1
+L tomu-rescue:LED-RESCUE-tomu D1
 U 1 1 5798F0D5
 P 3150 2450
 F 0 "D1" V 3250 2500 50  0000 C CNN
 F 1 "LED Green 0402 " H 3200 2325 50  0000 C CNN
 F 2 "LEDs:LED_0402" H 3150 2450 50  0001 C CNN
 F 3 "" H 3150 2450 50  0000 C CNN
+F 4 "ANY" V 3150 2450 50  0001 C CNN "MPN"
+F 5 "ANY" V 3150 2450 50  0001 C CNN "Manufacturer"
 	1    3150 2450
 	0    1    1    0   
 $EndComp
 $Comp
-L LED-RESCUE-tomu D2
+L tomu-rescue:LED-RESCUE-tomu D2
 U 1 1 5798F173
 P 3550 2450
 F 0 "D2" V 3650 2350 50  0000 C CNN
 F 1 "LED, Red, 0402" H 3700 2575 50  0000 C CNN
 F 2 "LEDs:LED_0402" H 3550 2450 50  0001 C CNN
 F 3 "" H 3550 2450 50  0000 C CNN
+F 4 "ANY" V 3550 2450 50  0001 C CNN "Manufacturer"
+F 5 "ANY" V 3550 2450 50  0001 C CNN "MPN"
 	1    3550 2450
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R2
+L Device:R_Small R2
 U 1 1 5798F38A
 P 3750 2200
 F 0 "R2" V 3675 2125 50  0000 L CNN
 F 1 "100 Ohm, 1%, 1/16W, 0402" V 3805 1845 39  0000 L CNN
 F 2 "Resistors_SMD:R_0402" H 3750 2200 50  0001 C CNN
 F 3 "" H 3750 2200 50  0000 C CNN
+F 4 "ANY" V 3750 2200 50  0001 C CNN "MPN"
+F 5 "ANY" V 3750 2200 50  0001 C CNN "Manufacturer"
 	1    3750 2200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R1
+L Device:R_Small R1
 U 1 1 5798F3FD
 P 3750 1900
 F 0 "R1" V 3825 1875 50  0000 L CNN
 F 1 "100 Ohm, 1%, 1/16W, 0402" V 3675 1475 39  0000 L CNN
 F 2 "Resistors_SMD:R_0402" H 3750 1900 50  0001 C CNN
 F 3 "" H 3750 1900 50  0000 C CNN
+F 4 "ANY" V 3750 1900 50  0001 C CNN "MPN"
+F 5 "ANY" V 3750 1900 50  0001 C CNN "Manufacturer"
 	1    3750 1900
 	0    1    1    0   
 $EndComp
 $Comp
-L +3V3 #PWR1
+L power:+3V3 #PWR01
 U 1 1 5798FD73
 P 2650 2850
-F 0 "#PWR1" H 2650 2700 50  0001 C CNN
+F 0 "#PWR01" H 2650 2700 50  0001 C CNN
 F 1 "+3V3" H 2650 2990 50  0000 C CNN
 F 2 "" H 2650 2850 50  0000 C CNN
 F 3 "" H 2650 2850 50  0000 C CNN
@@ -214,7 +201,7 @@ F 3 "" H 2650 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST-RESCUE-tomu W1
+L tomu-rescue:TEST-RESCUE-tomu W1
 U 1 1 57990318
 P 3600 3400
 F 0 "W1" H 3600 3460 50  0000 C CNN
@@ -227,7 +214,7 @@ F 5 "Capacitive touch pads" H 3600 3400 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST-RESCUE-tomu W2
+L tomu-rescue:TEST-RESCUE-tomu W2
 U 1 1 57990582
 P 3600 3600
 F 0 "W2" H 3600 3660 50  0000 C CNN
@@ -262,10 +249,10 @@ CAP0B
 Text Label 3300 3600 0    39   ~ 0
 CAP1B
 $Comp
-L +3V3 #PWR3
+L power:+3V3 #PWR03
 U 1 1 579B6568
 P 3350 2425
-F 0 "#PWR3" H 3350 2275 50  0001 C CNN
+F 0 "#PWR03" H 3350 2275 50  0001 C CNN
 F 1 "+3V3" H 3350 2565 50  0000 C CNN
 F 2 "" H 3350 2425 50  0000 C CNN
 F 3 "" H 3350 2425 50  0000 C CNN
@@ -273,23 +260,25 @@ F 3 "" H 3350 2425 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EFM32HG309 U1
+L efm32hg309:EFM32HG309 U1
 U 1 1 5798B6D7
 P 4400 4175
 F 0 "U1" H 4350 4125 60  0000 C CNN
 F 1 "EFM32HG309" H 5050 4850 39  0000 C CNN
 F 2 "Housings_DFN_QFN:QFN-24-1EP_5x5mm_Pitch0.65mm" H 4400 4175 60  0001 C CNN
 F 3 "https://www.silabs.com/documents/public/data-sheets/EFM32HG309.pdf" H 4400 4175 60  0001 C CNN
+F 4 "EFM32HG309F64G-B-QFN24" H 4400 4175 50  0001 C CNN "MPN"
+F 5 "ANY" H 4400 4175 50  0001 C CNN "Manufacturer"
 	1    4400 4175
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4200 3200
 NoConn ~ 4200 3275
 $Comp
-L GND #PWR4
+L power:GND #PWR04
 U 1 1 57A1602A
 P 4030 4035
-F 0 "#PWR4" H 4030 3785 50  0001 C CNN
+F 0 "#PWR04" H 4030 3785 50  0001 C CNN
 F 1 "GND" H 4030 3885 50  0000 C CNN
 F 2 "" H 4030 4035 50  0000 C CNN
 F 3 "" H 4030 4035 50  0000 C CNN
@@ -297,7 +286,7 @@ F 3 "" H 4030 4035 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 P2
+L tomu-rescue:Conn_01x03 P2
 U 1 1 5A55837D
 P 2450 4000
 F 0 "P2" H 2450 4200 50  0000 C CNN
@@ -310,10 +299,10 @@ F 5 "Test points for SWD" H 2450 4000 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG1
+L power:PWR_FLAG #FLG01
 U 1 1 5A55865E
 P 6600 3950
-F 0 "#FLG1" H 6600 4025 50  0001 C CNN
+F 0 "#FLG01" H 6600 4025 50  0001 C CNN
 F 1 "PWR_FLAG" H 6600 4100 50  0000 C CNN
 F 2 "" H 6600 3950 50  0001 C CNN
 F 3 "" H 6600 3950 50  0001 C CNN
@@ -323,7 +312,7 @@ $EndComp
 Text Label 4200 4390 1    39   ~ 0
 /RESET
 $Comp
-L Conn_01x01 P4
+L tomu-rescue:Conn_01x01 P4
 U 1 1 5A55B1FF
 P 4200 4600
 F 0 "P4" V 4200 4705 50  0000 C CNN
@@ -336,7 +325,7 @@ F 5 "Test point for RESET line" V 4200 4600 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_01x01 P5
+L tomu-rescue:Conn_01x01 P5
 U 1 1 5A55B8D8
 P 7300 3300
 F 0 "P5" H 7300 3395 50  0000 C CNN
@@ -349,7 +338,7 @@ F 5 "Test point for supplying 5V power" H 7300 3300 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Note XX1
+L usb-pcb:Note XX1
 U 1 1 5A5A1619
 P 1650 2700
 F 0 "XX1" H 1650 2700 60  0000 C CNN
@@ -362,7 +351,7 @@ F 5 "Internal component to expose captouch pads" H 1650 2700 60  0001 C CNN "Des
 	1    0    0    -1  
 $EndComp
 $Comp
-L Note XX3
+L usb-pcb:Note XX3
 U 1 1 5A603240
 P 1650 3600
 F 0 "XX3" H 1650 3600 60  0000 C CNN
@@ -375,7 +364,7 @@ F 5 "Small bag to contain PCB and plastic case.  Approx. 90mm x 90mm." H 1650 36
 	1    0    0    -1  
 $EndComp
 $Comp
-L Note XX4
+L usb-pcb:Note XX4
 U 1 1 5A6032EF
 P 1650 4050
 F 0 "XX4" H 1650 4050 60  0000 C CNN
@@ -394,13 +383,13 @@ Connection ~ 5750 3625
 Wire Wire Line
 	5950 4025 5950 4150
 Wire Wire Line
-	5750 3350 5750 3925
+	5750 3350 5750 3625
 Wire Wire Line
 	5550 3100 5500 3100
 Wire Wire Line
 	5500 3175 5550 3175
 Wire Wire Line
-	7000 2800 7000 3750
+	7000 2800 7000 3300
 Wire Wire Line
 	5750 3700 5500 3700
 Wire Wire Line
@@ -470,7 +459,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 2250 3150 1900
 Wire Wire Line
-	3150 2650 3550 2650
+	3150 2650 3350 2650
 Wire Wire Line
 	3350 2425 3350 2650
 Connection ~ 3350 2650
@@ -487,23 +476,23 @@ Wire Wire Line
 Wire Wire Line
 	5820 3100 5750 3100
 Wire Wire Line
-	6350 2800 6350 3050
+	6350 2800 6350 2900
 Wire Wire Line
 	6350 2800 7000 2800
 Wire Wire Line
 	7000 3300 7100 3300
 Connection ~ 7000 3300
 Wire Wire Line
-	5515 4150 7000 4150
+	5515 4150 5950 4150
 Connection ~ 6200 4150
 Wire Wire Line
 	6100 4150 6100 4050
 Wire Wire Line
 	7000 4150 7000 3950
 Wire Wire Line
-	5500 3350 6100 3350
+	5500 3350 5750 3350
 Wire Wire Line
-	6100 3350 6100 3850
+	6100 3350 6100 3625
 Wire Wire Line
 	5515 4150 5515 4125
 Connection ~ 6100 4150
@@ -548,7 +537,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 3050 2560 3050
 $Comp
-L Conn_01x03 P1
+L tomu-rescue:Conn_01x03 P1
 U 1 1 5A55AC38
 P 2360 3150
 F 0 "P1" H 2360 3350 50  0000 C CNN
@@ -565,7 +554,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 3250 2560 3250
 $Comp
-L Conn_01x01 P6
+L tomu-rescue:Conn_01x01 P6
 U 1 1 5A7007C6
 P 5500 2100
 F 0 "P6" H 5500 2200 50  0000 C CNN
@@ -578,10 +567,10 @@ F 5 "Test point for 3.3V power" H 5500 2100 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR5
+L power:+3V3 #PWR05
 U 1 1 5A7008F7
 P 5200 1950
-F 0 "#PWR5" H 5200 1800 50  0001 C CNN
+F 0 "#PWR05" H 5200 1800 50  0001 C CNN
 F 1 "+3V3" H 5200 2090 50  0000 C CNN
 F 2 "" H 5200 1950 50  0001 C CNN
 F 3 "" H 5200 1950 50  0001 C CNN
@@ -592,4 +581,45 @@ Wire Wire Line
 	5200 1950 5200 2100
 Wire Wire Line
 	5200 2100 5300 2100
+Wire Wire Line
+	5750 3350 6100 3350
+Wire Wire Line
+	5750 3625 5750 3700
+Wire Wire Line
+	5750 3700 5750 3775
+Wire Wire Line
+	5750 3775 5750 3850
+Wire Wire Line
+	5750 3850 5750 3925
+Wire Wire Line
+	5950 4150 6100 4150
+Wire Wire Line
+	6100 3625 6100 3850
+Wire Wire Line
+	6350 4150 6600 4150
+Wire Wire Line
+	3350 2650 3550 2650
+Wire Wire Line
+	7000 3300 7000 3750
+Wire Wire Line
+	6200 4150 6350 4150
+Wire Wire Line
+	6100 4150 6200 4150
+Wire Wire Line
+	6600 4150 7000 4150
+Wire Wire Line
+	6350 2900 6350 3050
+$Comp
+L usb-pcb:Note XX2
+U 1 1 5B715BCF
+P 1650 3150
+F 0 "XX2" H 1650 3150 60  0000 C CNN
+F 1 "ESD Bag Sticker" H 1650 3050 60  0000 C CNN
+F 2 "" H 1650 3150 60  0001 C CNN
+F 3 "" H 1650 3150 60  0001 C CNN
+F 4 "DNP" H 1650 3150 60  0001 C CNN "Notes"
+F 5 "Black-and-white sticker to affix to ESD bag. 30mm x 50mm" H 1650 3150 60  0001 C CNN "Description"
+	1    1650 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

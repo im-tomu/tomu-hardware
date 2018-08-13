@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name tomu-rescue)(type Legacy)(uri ${KIPRJMOD}/tomu-rescue.lib)(options "")(descr ""))
+  (lib (name efm32hg309)(type Legacy)(uri ${KIPRJMOD}/efm32hg309.lib)(options "")(descr ""))
+  (lib (name usb-pcb)(type Legacy)(uri ${KIPRJMOD}/usb-pcb.lib)(options "")(descr ""))
+)
