@@ -55,9 +55,8 @@ All parts are available from Digikey, and are readily available from other suppl
   * 2 x 0402 - 15 Ohm - [Digikey](https://www.digikey.com.au/short/3m8rz5)
   * 2 x 0402 - ~50 Ohm (Depends on LED choice)
 * Capacitors - [Digikey Capacitors 0402, >1uF](https://www.digikey.com.au/short/3m8r4z)
-  * 1 x Capacitor 1uF 0402
+  * 2 x Capacitor 1uF 0402
   * 1 x Capacitor 4.7uF 0402
-  * 1 x Capacitor >10uF 0402
 * 2 x LED 0402
   * You choice of two different colors (might require adjustment of R1/R2).
   * 5mA LEDs are better choice.
