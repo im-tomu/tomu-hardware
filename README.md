@@ -21,7 +21,7 @@ boards are 0.6mm.
 
 Designs and documentation are available in:
 
-* [`pcb/`](./pcb): [KiCad](http://kicad-pcb.org/) design files
+* [`pcb/`](./pcb): [KiCad](http://kicad.org/) design files
 * [`docs/`](./docs): PDF schematics, pin-out diagrams, and 3D renders
 
 The board requirements are very lo-fi:
